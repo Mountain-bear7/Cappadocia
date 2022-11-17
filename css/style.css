@@ -208,6 +208,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: start;
   height: 100%;
 }
 
@@ -220,4 +221,17 @@ body{
 .our-trip__list li:first-child{
   margin-bottom: 20px;
   font-family: 'RobotoCondensed-Regular';
+}
+
+.our-trip__btn{
+  font-weight: 'RobotoCondensed-Light';
+  font-size: 24px;
+  line-height: 28px;
+  border: 1px solid #e2ab3f;
+  padding: 11px 53px;
+}
+
+.our-trip__content{
+  width: 50%;
+  padding-right: 55px;
 }
